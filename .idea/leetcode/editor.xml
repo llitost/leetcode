@@ -3,6 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/ThreeSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/ThreeSum.java" />
+              <option name="questionId" value="15" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/AddTwoNumbers.java">
           <value>
             <LeetcodeEditor>
@@ -19,11 +27,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/FourSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/FourSum.java" />
+              <option name="questionId" value="18" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/IntegerToRoman.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/IntegerToRoman.java" />
               <option name="questionId" value="12" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java" />
+              <option name="questionId" value="17" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -75,6 +99,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/RemoveNthNodeFromEndOfList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/RemoveNthNodeFromEndOfList.java" />
+              <option name="questionId" value="19" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/ReverseInteger.java">
           <value>
             <LeetcodeEditor>
@@ -99,6 +131,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/ThreeSum .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/ThreeSum .java" />
+              <option name="questionId" value="15" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/ThreeSumClosest.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/ThreeSumClosest.java" />
+              <option name="questionId" value="16" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/ZigzagConversion.java">
           <value>
             <LeetcodeEditor>
@@ -112,6 +160,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/[1]两数之和.java" />
               <option name="questionId" value="1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/leetcode/editor/cn/ThreeSum .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/fang/leetcode/editor/cn/leetcode/editor/cn/ThreeSum .java" />
+              <option name="questionId" value="15" />
             </LeetcodeEditor>
           </value>
         </entry>
