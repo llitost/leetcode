@@ -56,16 +56,56 @@ package fang.leetcode.editor.cn;
 // Related Topics 栈 字符串 
 // 👍 2674 👎 0
 
-public class ValidParentheses{
-    public static void main(String[] args) {
-         Solution solution = new ValidParentheses().new Solution();
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean isValid(String s) {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
+public class ValidParentheses {
+    public static void main(String[] args) {
+        Solution solution = new ValidParentheses().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        private final List<Character> left = new ArrayList<>();
+        private final List<Character> right = new ArrayList<>();
+
+        {
+            left.add('(');
+            left.add('[');
+            left.add('{');
+            right.add(')');
+            right.add(']');
+            right.add('}');
+        }
+
+        public boolean isValid(String s) {
+            Stack<Character> stack = new Stack<>();
+
+            char[] chars = s.toCharArray();
+            for (char c : chars) {
+                if (left.contains(c)) {
+                    stack.push(c);
+                } else if (right.contains(c)) {
+                    if (stack.empty()) {
+                        return false;
+                    }
+                    char m = stack.pop();
+                    if (!isMatch(m, c)) {
+                        return false;
+                    }
+
+                } else {
+                    return false;
+                }
+            }
+            return stack.empty();
+        }
+
+        private boolean isMatch(char l, char r) {
+            return (l == '(' && r == ')') || (l == '[' && r == ']') || (l == '{' && r == '}');
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 
