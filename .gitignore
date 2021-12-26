@@ -2,6 +2,8 @@
 *.class
 .idea
 *.iml
+src/main/java/fang/leetcode/editor/cn/all.json
+src/main/java/fang/leetcode/editor/cn/translate.json
 
 # Log file
 *.log
